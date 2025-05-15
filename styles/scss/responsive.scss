@@ -1,0 +1,113 @@
+@media screen and (width <= 768px) {
+  body {
+    width: 100%;
+  }
+  .image-prop {
+    width: 100%;
+  }
+  .sc1 {
+    width: 100%;
+  }
+  .nav-test {
+    display: none !important;
+  }
+  .navbar {
+    padding: 4rem;
+  }
+
+  // hero section
+  .hero-container {
+    padding: 3rem;
+    justify-content: center;
+    margin: 0;
+    .hero-content {
+      width: 100%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  // trending section
+  .card-container {
+    justify-content: center;
+    gap: 3rem;
+  }
+  .trending-collection {
+    padding: 3rem;
+  }
+  .trans-btn {
+    padding: 0.5rem;
+  }
+
+  // creators section
+  .creators {
+    padding: 4rem;
+  }
+  .creators-container {
+    justify-content: center;
+  }
+  .creators-sub {
+    flex-direction: column;
+    align-items: flex-start;
+    p {
+      padding: 1rem 0;
+      font-size: 1.5rem;
+    }
+  }
+  // categories section
+  .categories-container {
+    padding: 4rem;
+  }
+  .categories-collection {
+    justify-content: center;
+  }
+  //Discover Section
+  .discover-container {
+    padding: 4rem;
+  }
+  .discover-collection {
+    // justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  //highliht section
+  .highlight-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 2rem;
+  }
+  .works-container {
+    padding: 4rem;
+    .works-card {
+      padding: 2rem;
+      img {
+        height: 15rem;
+        width: 15rem;
+      }
+    }
+  }
+  .join-container {
+    padding: 2rem;
+  }
+  .input-wrapper {
+    .input-container {
+      font-size: 1.6rem;
+    }
+
+    .purple-btn {
+      padding: 1.5rem 2rem;
+      font-size: 1.6rem;
+    }
+  }
+  .footer-container {
+    padding: 4rem;
+    .f-content {
+      gap: 3rem;
+    }
+  }
+}

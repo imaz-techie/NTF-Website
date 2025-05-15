@@ -1,0 +1,48 @@
+.footer-container {
+  padding: 5rem 12rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  background-color: $light-grey;
+
+  .f-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .f-content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .f-content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h3 {
+      font-family: "Space Mono", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  .f-content3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h2 {
+      font-family: "Space Mono", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+
+  .footer-logos {
+    display: flex;
+    gap: 1rem;
+  }
+  .copyright {
+    border-top: 1px solid white;
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+}
