@@ -1,25 +1,20 @@
 .trending-collection {
-  padding: 0px 12rem;
+  padding: 0 12rem;
 }
 .image-prop {
   border-radius: 2rem;
 }
 
-.trending-headline {
-  margin-bottom: 4rem;
-  h4 {
-    font-size: 3.8rem;
-    margin-bottom: 2rem;
-  }
-  p {
-    font-size: 2.2rem;
-  }
+.heading {
+  padding: 2rem 0;
 }
+
 .card-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding-top: 4rem;
 }
 .collection-card {
   .sc1 {
@@ -32,13 +27,9 @@
     font-weight: bold;
     border-radius: 2rem;
   }
-
-  img:hover {
-  }
   .sub-collection {
     display: flex;
     justify-content: space-evenly;
-    // gap: 1rem;
     margin: 7px 0;
   }
   .sub-collection-card {
@@ -46,8 +37,12 @@
   }
   .collection-info {
     h3 {
-      font-size: 2.2rem;
+      font-size: 2rem;
+      font-weight: 500;
       padding: 2rem 0;
+    }
+    p {
+      font-size: 1.6rem;
     }
   }
   .collection-bottom {
