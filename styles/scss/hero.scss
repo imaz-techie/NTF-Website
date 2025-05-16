@@ -36,10 +36,16 @@
   .image-content {
     background-color: $light-grey;
     border-radius: 2rem;
+    overflow: hidden;
     .space-image {
       width: 100%;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
+      transition: 0.5s;
+
+      &:hover {
+        animation: imageanime 1s ease;
+      }
     }
     .image-content2 {
       padding: 1rem;
@@ -56,5 +62,13 @@
         font-weight: normal;
       }
     }
+  }
+}
+@keyframes imageanime {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
   }
 }
