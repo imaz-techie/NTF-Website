@@ -40,7 +40,6 @@
   padding: 5rem;
   border-radius: 2rem;
   display: flex;
-  //   justify-content: space-between;
   gap: 4rem;
   flex-wrap: wrap;
   h2 {
@@ -56,7 +55,6 @@
     flex: 1 0 20rem;
   }
   .join-content {
-    // width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,7 +68,6 @@
   display: flex;
   position: relative;
 
-  //   padding: 2rem;
   .input-container {
     width: 100%;
     padding: 2rem 0 1.8rem 3rem;
@@ -82,7 +79,6 @@
   .purple-btn {
     position: absolute;
     right: 0;
-    // padding: 2rem 13rem;
     border-radius: 2rem;
     height: 100%;
     padding: 0 6rem;

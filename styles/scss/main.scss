@@ -27,9 +27,12 @@ body {
   margin: 4rem 0;
   h3 {
     font-size: 3.8rem;
+    font-weight: 500;
+    padding: 1rem 0;
   }
   p {
     font-size: 2.2rem;
+    padding: 1rem 0;
   }
 }
 //buttons
@@ -40,8 +43,8 @@ body {
   background-color: $purple;
   color: white;
   border: none;
-  padding: 0.8rem 3rem;
-  border-radius: 1rem;
+  padding: 1.4rem 2rem;
+  border-radius: 1.5rem;
   gap: 1rem;
 }
 .trans-btn {
@@ -50,7 +53,7 @@ body {
   justify-content: center;
   border: 1px solid $purple;
   padding: 0.8rem 3rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: $dark-grey;
   color: white;
   gap: 1rem;
@@ -65,3 +68,4 @@ body {
 @import "works";
 @import "footer";
 @import "responsive";
+@import "login";
