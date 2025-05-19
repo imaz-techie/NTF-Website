@@ -50,13 +50,16 @@
     }
   }
   .image-content2 {
-    padding: 2.2rem;
+    padding: 0 2.2rem 2rem;
     font-size: 2rem;
+    p {
+      padding-top: 2rem;
+      font-weight: 600;
+    }
   }
   .image-content3 {
     display: flex;
     align-items: center;
-    font-weight: 100;
     gap: 1rem;
     padding: 1rem 0 0;
     h5 {
