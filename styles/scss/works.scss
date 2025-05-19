@@ -4,9 +4,11 @@
     padding: 3rem 0;
     h1 {
       font-size: 3.5rem;
+      padding: 2rem 0;
     }
     p {
       font-size: 2.2rem;
+      padding: 0 0 2rem 0;
     }
   }
 }
@@ -16,7 +18,7 @@
   gap: 2rem;
 }
 .works-card {
-  padding: 2rem 5rem;
+  padding: 4rem 5rem 3rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +27,15 @@
   flex: 1 0 15rem;
   h3 {
     font-size: 2.2rem;
-    padding: 2rem 0 1rem;
+    padding: 3rem 0 1rem;
+    text-align: center;
   }
   p {
     font-size: 1.6rem;
     text-align: center;
     padding: 1rem 0.5rem;
     font-weight: 400;
+    line-height: 2.5rem;
   }
 }
 .join-container {
@@ -42,13 +46,11 @@
   display: flex;
   gap: 4rem;
   flex-wrap: wrap;
-  h2 {
-    font-size: 3.8rem;
-    width: 70%;
-  }
+
   p {
     font-size: 2.2rem;
     font-weight: 300;
+    padding: 0 10rem 0 0;
   }
   img {
     width: 100%;
@@ -57,9 +59,15 @@
   .join-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    // align-items: center;
+    justify-content: center;
     flex: 1 0 20rem;
     gap: 4rem;
+    h2 {
+      font-size: 3.8rem;
+      font-weight: 500;
+      padding-right: 11rem;
+    }
   }
 }
 .input-wrapper {
@@ -69,7 +77,7 @@
   position: relative;
 
   .input-container {
-    width: 100%;
+    width: 70%;
     padding: 2rem 0 1.8rem 3rem;
     border-radius: 2rem;
     border: none;
@@ -78,10 +86,10 @@
   }
   .purple-btn {
     position: absolute;
-    right: 0;
+    left: 22rem;
     border-radius: 2rem;
     height: 100%;
-    padding: 0 6rem;
+    padding: 0 4rem;
     font-size: 1.8rem;
   }
 }

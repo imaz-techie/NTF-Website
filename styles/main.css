@@ -24,12 +24,18 @@ body {
 
 .heading {
   margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
 }
 .heading h3 {
   font-size: 3.8rem;
+  font-weight: 500;
+  padding: 1rem 0;
 }
 .heading p {
   font-size: 2.2rem;
+  font-weight: 300;
+  padding: 1rem 0;
 }
 
 .purple-btn {
@@ -39,8 +45,8 @@ body {
   background-color: #a259ff;
   color: white;
   border: none;
-  padding: 0.8rem 3rem;
-  border-radius: 1rem;
+  padding: 1.4rem 2rem;
+  border-radius: 1.5rem;
   gap: 1rem;
 }
 
@@ -50,7 +56,7 @@ body {
   justify-content: center;
   border: 1px solid #a259ff;
   padding: 0.8rem 3rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: #2b2b2b;
   color: white;
   gap: 1rem;
@@ -82,7 +88,7 @@ body {
 
 .hero-container {
   padding: 0px 12rem;
-  margin: 8rem auto;
+  margin: 9rem auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -93,83 +99,72 @@ body {
 }
 .hero-container .hero-content h1 {
   font-size: 6.7rem;
+  padding: 0rem 11rem 1rem 0rem;
   font-weight: 500;
 }
-.hero-container .hero-content p {
+.hero-container .hero-content h4 {
   font-size: 2.2rem;
   font-weight: 300;
-  line-height: 160%;
+  padding: 1rem 12rem 0 0;
+  line-height: 3rem;
 }
 .hero-container .hero-content button {
   margin: 2rem 0;
+  padding: 2rem 4rem;
 }
-.hero-container .hero-content .hero-content2 {
+.hero-container .hero-content2 {
   display: flex;
-  gap: 5rem;
+  gap: 11rem;
   padding: 1rem 0;
 }
-.hero-container .hero-content .hero-content2 h3 {
+.hero-container .hero-content2 h3 {
+  font-family: "Space Mono", monospace;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
 }
-.hero-container .hero-content .hero-content2 p {
-  font-size: 1.5rem;
+.hero-container .hero-content2 p {
+  font-size: 2rem;
+  font-weight: 300;
 }
 .hero-container .image-content {
   background-color: #3b3b3b;
   border-radius: 2rem;
   overflow: hidden;
 }
-.hero-container .image-content .space-image {
+.hero-container .image-content .img-container img {
   width: 100%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  height: 100%;
   transition: 0.5s;
 }
-.hero-container .image-content .space-image:hover {
-  animation: imageanime 1s ease;
-}
-.hero-container .image-content .image-content2 {
-  padding: 1rem;
+.hero-container .image-content2 {
+  padding: 0 2.2rem 2rem;
   font-size: 2rem;
-  font-weight: 100;
 }
-.hero-container .image-content .image-content3 {
+.hero-container .image-content2 p {
+  padding-top: 2rem;
+  font-weight: 600;
+}
+.hero-container .image-content3 {
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0 0;
 }
-.hero-container .image-content .image-content3 h5 {
-  font-size: 1.6rem;
+.hero-container .image-content3 h5 {
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
-@keyframes imageanime {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
-}
 .trending-collection {
-  padding: 0px 12rem;
+  padding: 0 12rem;
 }
 
 .image-prop {
   border-radius: 2rem;
 }
 
-.trending-headline {
-  margin-bottom: 4rem;
-}
-.trending-headline h4 {
-  font-size: 3.8rem;
-  margin-bottom: 2rem;
-}
-.trending-headline p {
-  font-size: 2.2rem;
+.heading {
+  margin: 2rem 0;
 }
 
 .card-container {
@@ -177,6 +172,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding-top: 4rem;
 }
 
 .collection-card .sc1 {
@@ -198,8 +194,12 @@ body {
   width: 30%;
 }
 .collection-card .collection-info h3 {
-  font-size: 2.2rem;
+  font-size: 2rem;
+  font-weight: 500;
   padding: 2rem 0;
+}
+.collection-card .collection-info p {
+  font-size: 1.6rem;
 }
 .collection-card .collection-bottom {
   display: flex;
@@ -211,7 +211,7 @@ body {
 }
 
 .creators {
-  padding: 0px 12rem;
+  padding: 5rem 12rem;
 }
 
 .creators-sub {
@@ -224,10 +224,11 @@ body {
 .corner {
   background-color: #2b2b2b;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   padding: 8px 12px;
-  bottom: 19rem;
-  right: 9rem;
+  left: 2rem;
+  top: 2rem;
+  font-family: "Space Mono", monospace;
 }
 
 .creators-container {
@@ -239,22 +240,46 @@ body {
 }
 
 .creators-card {
-  width: 24rem;
+  width: 27rem;
   background-color: #3b3b3b;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 2rem;
+  padding: 3rem;
   border-radius: 2rem;
+  position: relative;
 }
-.creators-card h4 {
+.creators-card img {
+  margin-bottom: 2rem;
+}
+
+h4 {
   font-size: 2.2rem;
   font-weight: 600;
-  margin: 2rem 0 1rem 0;
 }
-.creators-card span {
-  color: #858584;
+
+span {
+  color: #969696;
+  padding: 7px 10px;
+  font-size: 1.2rem;
+}
+
+.card-sub {
+  font-size: 1.6rem;
+  padding: 1.5rem 0 0;
+}
+
+.total-sales {
+  font-size: 1.6rem;
+}
+
+.trans-btn {
+  padding: 1rem 5rem 1rem 4rem;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories-container {
@@ -288,7 +313,7 @@ body {
   font-size: 2.2rem;
   font-weight: 500;
   background-color: #3b3b3b;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 2rem 2rem;
   padding: 2rem;
 }
 
@@ -304,6 +329,11 @@ body {
 
 .discover-container {
   padding: 2rem;
+}
+.discover-container .heading {
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .discover-collection {
@@ -325,8 +355,14 @@ body {
   font-size: 2rem;
   padding: 1rem 0;
 }
+.discover-card h5 {
+  font-size: 1.5rem;
+  font-family: "Space Mono";
+  font-weight: 200;
+}
 .discover-card p {
   font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 .discover-card .disc-bottom {
   display: flex;
@@ -351,7 +387,7 @@ body {
   margin: 5rem 0;
   position: relative;
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   background: url("../../assets/svg/magic-mushroom.svg");
   background-position: center;
   background-size: cover;
@@ -389,23 +425,25 @@ body {
   background-color: #3b3b3b;
   border-radius: 2rem;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.7rem 2rem;
   gap: 1rem;
 }
 .highlight-content1 h1 {
   font-size: 5rem;
+  font-weight: 600;
 }
 .highlight-content1 .white-btn {
   background-color: white;
   color: black;
   align-items: center;
+  padding: 0.5rem 2rem 0.5rem 1rem;
 }
 
 .highlight-content2 {
   background-color: rgba(59, 59, 59, 0.4666666667);
   padding: 3rem;
   border-radius: 2rem;
-  width: 27rem;
+  width: 30rem;
 }
 .highlight-content2 p {
   font-size: 1.2rem;
@@ -429,9 +467,11 @@ body {
 }
 .works-container .works-heading h1 {
   font-size: 3.5rem;
+  padding: 2rem 0;
 }
 .works-container .works-heading p {
   font-size: 2.2rem;
+  padding: 0 0 2rem 0;
 }
 
 .works-collection {
@@ -441,7 +481,7 @@ body {
 }
 
 .works-card {
-  padding: 2rem 5rem;
+  padding: 4rem 5rem 3rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -451,13 +491,15 @@ body {
 }
 .works-card h3 {
   font-size: 2.2rem;
-  padding: 2rem 0 1rem;
+  padding: 3rem 0 1rem;
+  text-align: center;
 }
 .works-card p {
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem 0.5rem;
   font-weight: 400;
+  line-height: 2.5rem;
 }
 
 .join-container {
@@ -469,13 +511,10 @@ body {
   gap: 4rem;
   flex-wrap: wrap;
 }
-.join-container h2 {
-  font-size: 3.8rem;
-  width: 70%;
-}
 .join-container p {
   font-size: 2.2rem;
   font-weight: 300;
+  padding: 0 10rem 0 0;
 }
 .join-container img {
   width: 100%;
@@ -484,9 +523,14 @@ body {
 .join-container .join-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   flex: 1 0 20rem;
   gap: 4rem;
+}
+.join-container .join-content h2 {
+  font-size: 3.8rem;
+  font-weight: 500;
+  padding-right: 11rem;
 }
 
 .input-wrapper {
@@ -496,7 +540,7 @@ body {
   position: relative;
 }
 .input-wrapper .input-container {
-  width: 100%;
+  width: 70%;
   padding: 2rem 0 1.8rem 3rem;
   border-radius: 2rem;
   border: none;
@@ -505,10 +549,10 @@ body {
 }
 .input-wrapper .purple-btn {
   position: absolute;
-  right: 0;
+  left: 22rem;
   border-radius: 2rem;
   height: 100%;
-  padding: 0 6rem;
+  padding: 0 4rem;
   font-size: 1.8rem;
 }
 
@@ -584,8 +628,25 @@ body {
   }
   .hero-container .hero-content h1 {
     font-size: 3rem;
+    padding: 0rem 0rem 1rem 0rem;
+    font-weight: 500;
   }
-  .hero-container .hero-content p {
+  .hero-container .hero-content h4 {
+    font-size: 2rem;
+    padding: 0;
+    margin: 2rem 0;
+  }
+  .hero-container .hero-content button {
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+  }
+  .hero-container .hero-content2 {
+    gap: 4rem;
+  }
+  .hero-container .hero-content2 h3 {
+    font-size: 1.8rem;
+  }
+  .hero-container .hero-content2 p {
     font-size: 1rem;
   }
   .card-container {
@@ -600,6 +661,9 @@ body {
   }
   .creators {
     padding: 4rem;
+  }
+  .creators-card {
+    padding: 3rem 0;
   }
   .creators-container {
     justify-content: center;
@@ -621,6 +685,10 @@ body {
   .discover-container {
     padding: 4rem;
   }
+  .discover-container .heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .discover-collection {
     align-items: center;
     gap: 2rem;
@@ -630,10 +698,6 @@ body {
     align-items: center;
     gap: 5rem;
     padding: 2rem 2rem;
-  }
-  .highlight-content .highlight-content2 {
-    height: 10rem;
-    width: 18rem;
   }
   .works-container {
     padding: 4rem;
@@ -648,12 +712,23 @@ body {
   .join-container {
     padding: 2rem;
   }
+  .join-container .join-content h2 {
+    padding: 0;
+  }
+  .join-container .join-content p {
+    padding: 0;
+    font-size: 2rem;
+  }
   .input-wrapper .input-container {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+    width: 100%;
   }
   .input-wrapper .purple-btn {
     padding: 1.5rem 2rem;
     font-size: 1.6rem;
+    right: 0;
+    left: 12rem;
   }
   .footer-container {
     padding: 4rem;
