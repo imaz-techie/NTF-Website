@@ -1,22 +1,26 @@
 .works-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 0px 12rem;
   .works-heading {
     padding: 3rem 0;
     h1 {
-      font-size: 3.5rem;
-      padding: 2rem 0;
-      font-weight: 500;
+      font-size: 3.8rem;
+      padding: 6rem 0 2rem 0;
+      font-weight: 700;
     }
     p {
       font-size: 2.2rem;
-      padding: 0 0 2rem 0;
+      padding: 0 0 4rem 0;
+      font-weight: 400;
     }
   }
 }
 .works-collection {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 .works-card {
   padding: 4rem 5rem 3rem 5rem;
@@ -31,7 +35,7 @@
     padding: 3rem 0 1rem;
     text-align: center;
     font-family: "Work Sans";
-    font-weight: 500;
+    font-weight: 600;
   }
   p {
     font-size: 1.6rem;
@@ -42,15 +46,13 @@
   }
 }
 .join-container {
-  // .join-content {
   background-color: $light-grey;
-  margin: 4rem 0;
+  margin: 8rem 0;
   padding: 5rem;
   border-radius: 2rem;
   display: flex;
   gap: 10rem;
   flex-wrap: wrap;
-  // }
   p {
     font-size: 2.2rem;
     font-weight: 300;
@@ -68,7 +70,7 @@
     gap: 4rem;
     h2 {
       font-size: 3.8rem;
-      font-weight: 500;
+      font-weight: 600;
       padding-right: 11rem;
     }
   }
@@ -99,21 +101,3 @@
     font-size: 1.8rem;
   }
 }
-// .input-wrapper {
-//   .input-container {
-//     width: 80%;
-//     padding: 2rem 0 1.8rem 3rem;
-//     border-radius: 2rem;
-//     border: none;
-//     outline: none;
-//     font-size: 1.8rem;
-//   }
-//   .purple-btn {
-//     position: absolute;
-//     left: 22rem;
-//     border-radius: 2rem;
-//     height: 100%;
-//     padding: 3rem 4rem;
-//     font-size: 1.8rem;
-//   }
-// }

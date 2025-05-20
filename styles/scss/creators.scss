@@ -1,20 +1,32 @@
 .creators {
   padding: 5rem 12rem;
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
+  .heading {
+    padding: 4rem 0;
+  }
 }
 .creators-sub {
   display: flex;
   justify-content: space-between;
   font-size: 1.6rem;
   align-items: center;
+  padding: 2rem 0;
 }
 .corner {
   background-color: #2b2b2b;
   border-radius: 50%;
   position: absolute;
-  padding: 8px 12px;
+  font-size: 1.6rem;
   left: 2rem;
   top: 2rem;
   font-family: "Space Mono", monospace;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .creators-container {
@@ -56,6 +68,7 @@ span {
 .total-sales {
   font-family: "Work Sans";
   font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .trans-btn {
@@ -63,6 +76,7 @@ span {
   display: flex;
   font-size: 1.6rem;
   font-weight: 500;
+  border: 2px solid $purple;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;

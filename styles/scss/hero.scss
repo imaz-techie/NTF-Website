@@ -1,4 +1,7 @@
 .hero-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 0px 12rem;
   margin: 9rem auto;
   display: flex;
@@ -14,13 +17,14 @@
     }
     h4 {
       font-size: 2.2rem;
-      font-weight: 300;
+      font-weight: 400;
       padding: 1rem 12rem 0 0;
       line-height: 3rem;
     }
     button {
       margin: 2rem 0;
-      padding: 2rem 7rem;
+      padding: 2rem 5rem;
+      border-radius: 2rem;
     }
   }
   .hero-content2 {
@@ -29,11 +33,11 @@
     padding: 1rem 0;
     h3 {
       font-family: "Space Mono", monospace;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 2.8rem;
     }
     p {
-      font-size: 2rem;
+      font-size: 2.39rem;
       font-weight: 300;
     }
   }

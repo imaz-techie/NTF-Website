@@ -21,12 +21,6 @@ body {
   margin: 0 auto;
 }
 
-section {
-  width: 100%;
-  margin-inline: auto;
-  max-width: 1440px;
-}
-
 .heading {
   margin: 4rem 0;
   display: flex;
@@ -34,12 +28,12 @@ section {
 }
 .heading h3 {
   font-size: 3.8rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 1rem 0;
 }
 .heading p {
   font-size: 2.2rem;
-  font-weight: 300;
+  font-weight: 400;
   padding: 1rem 0;
 }
 
@@ -102,6 +96,9 @@ section {
 }
 
 .hero-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 0px 12rem;
   margin: 9rem auto;
   display: flex;
@@ -119,13 +116,14 @@ section {
 }
 .hero-container .hero-content h4 {
   font-size: 2.2rem;
-  font-weight: 300;
+  font-weight: 400;
   padding: 1rem 12rem 0 0;
   line-height: 3rem;
 }
 .hero-container .hero-content button {
   margin: 2rem 0;
-  padding: 2rem 7rem;
+  padding: 2rem 5rem;
+  border-radius: 2rem;
 }
 .hero-container .hero-content2 {
   display: flex;
@@ -134,11 +132,11 @@ section {
 }
 .hero-container .hero-content2 h3 {
   font-family: "Space Mono", monospace;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.8rem;
 }
 .hero-container .hero-content2 p {
-  font-size: 2rem;
+  font-size: 2.39rem;
   font-weight: 300;
 }
 .hero-container .image-content {
@@ -172,6 +170,9 @@ section {
 
 .trending-collection {
   padding: 8rem 12rem;
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
 }
 
 .image-prop {
@@ -184,7 +185,7 @@ section {
 }
 .heading h3 {
   font-family: "Work Sans";
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card-container {
@@ -219,12 +220,14 @@ section {
   width: 30%;
 }
 .collection-card .collection-info h3 {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.2rem;
+  font-weight: 600;
   padding: 2rem 0;
+  font-family: "Work Sans";
 }
 .collection-card .collection-info p {
   font-size: 1.6rem;
+  font-weight: 400;
 }
 .collection-card .collection-bottom {
   display: flex;
@@ -237,6 +240,12 @@ section {
 
 .creators {
   padding: 5rem 12rem;
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
+}
+.creators .heading {
+  padding: 4rem 0;
 }
 
 .creators-sub {
@@ -244,16 +253,22 @@ section {
   justify-content: space-between;
   font-size: 1.6rem;
   align-items: center;
+  padding: 2rem 0;
 }
 
 .corner {
   background-color: #2b2b2b;
   border-radius: 50%;
   position: absolute;
-  padding: 8px 12px;
+  font-size: 1.6rem;
   left: 2rem;
   top: 2rem;
   font-family: "Space Mono", monospace;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .creators-container {
@@ -300,6 +315,7 @@ span {
 .total-sales {
   font-family: "Work Sans";
   font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .trans-btn {
@@ -307,6 +323,7 @@ span {
   display: flex;
   font-size: 1.6rem;
   font-weight: 500;
+  border: 2px solid #a259ff;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;
@@ -314,6 +331,9 @@ span {
 }
 
 .categories-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 4rem 12rem;
 }
 .categories-container h4 {
@@ -361,6 +381,9 @@ span {
 }
 
 .discover-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 8rem 2rem;
 }
 .discover-container .heading {
@@ -386,14 +409,14 @@ span {
   border-bottom-right-radius: 2rem;
 }
 .discover-card h4 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: 1rem 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 .discover-card h5 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: "Space Mono";
-  font-weight: 200;
+  font-weight: 400;
 }
 .discover-card .disc-bottom {
   display: flex;
@@ -406,9 +429,9 @@ span {
   padding: 2rem 0 0 0;
 }
 .discover-card p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: grey;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-family: "Space Mono";
 }
 
@@ -425,6 +448,9 @@ h3 {
   background: url("../../assets/svg/magic-mushroom.svg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .highlights-container .main-img img {
   width: 100%;
@@ -438,13 +464,14 @@ h3 {
 }
 
 .highlight-content {
+  max-width: 1440px;
+  padding: 8rem 0;
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: end;
-  padding: 8rem 0;
+  align-items: center;
 }
 
 .highlight-content1 {
@@ -470,19 +497,29 @@ h3 {
   background-color: white;
   color: black;
   align-items: center;
-  padding: 0.5rem 2rem 0.5rem 1rem;
+  padding: 1.2rem 4rem;
+  font-weight: 600;
+  gap: 0;
 }
 
 .highlight-content2 {
   background-color: rgba(59, 59, 59, 0.4666666667);
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 2rem;
-  width: 30rem;
+}
+.highlight-content2 h1 {
+  font-size: 3.8rem;
+  font-family: "Space Mono";
+  font-weight: 700;
 }
 .highlight-content2 p {
   font-size: 1.2rem;
   font-family: "Space Mono";
-  font-weight: 100;
+  font-weight: 400;
+}
+.highlight-content2 span {
+  font-size: 5rem;
+  color: white;
 }
 
 .time-container {
@@ -495,25 +532,29 @@ h3 {
 }
 
 .works-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 0px 12rem;
 }
 .works-container .works-heading {
   padding: 3rem 0;
 }
 .works-container .works-heading h1 {
-  font-size: 3.5rem;
-  padding: 2rem 0;
-  font-weight: 500;
+  font-size: 3.8rem;
+  padding: 6rem 0 2rem 0;
+  font-weight: 700;
 }
 .works-container .works-heading p {
   font-size: 2.2rem;
-  padding: 0 0 2rem 0;
+  padding: 0 0 4rem 0;
+  font-weight: 400;
 }
 
 .works-collection {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .works-card {
@@ -530,7 +571,7 @@ h3 {
   padding: 3rem 0 1rem;
   text-align: center;
   font-family: "Work Sans";
-  font-weight: 500;
+  font-weight: 600;
 }
 .works-card p {
   font-size: 1.6rem;
@@ -542,7 +583,7 @@ h3 {
 
 .join-container {
   background-color: #3b3b3b;
-  margin: 4rem 0;
+  margin: 8rem 0;
   padding: 5rem;
   border-radius: 2rem;
   display: flex;
@@ -567,7 +608,7 @@ h3 {
 }
 .join-container .join-content1 h2 {
   font-size: 3.8rem;
-  font-weight: 500;
+  font-weight: 600;
   padding-right: 11rem;
 }
 
@@ -598,6 +639,7 @@ h3 {
 }
 
 .footer-container {
+  width: 100%;
   padding: 5rem 12rem;
   font-size: 1.6rem;
   font-weight: 300;
@@ -614,8 +656,10 @@ h3 {
 }
 
 .f-content {
+  max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .f-content p {
   font-weight: 400;
@@ -659,6 +703,8 @@ h3 {
 }
 
 .copyright {
+  margin: 0 auto;
+  max-width: 1440px;
   border-top: 1px solid white;
   margin-top: 2rem;
   padding: 2rem 0;

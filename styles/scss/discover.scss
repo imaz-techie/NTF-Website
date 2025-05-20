@@ -1,4 +1,7 @@
 .discover-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   padding: 8rem 2rem;
   .heading {
     justify-content: space-between;
@@ -24,14 +27,14 @@
     border-bottom-right-radius: 2rem;
   }
   h4 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 1rem 0;
-    font-weight: 400;
+    font-weight: 600;
   }
   h5 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: "Space Mono";
-    font-weight: 200;
+    font-weight: 400;
   }
 
   .disc-bottom {
@@ -45,9 +48,9 @@
     padding: 2rem 0 0 0;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: grey;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-family: "Space Mono";
   }
 }
@@ -64,6 +67,9 @@ h3 {
   background: url("../../assets/svg/magic-mushroom.svg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .main-img {
     img {
       width: 100%;
@@ -78,13 +84,14 @@ h3 {
   }
 }
 .highlight-content {
+  max-width: 1440px;
+  padding: 8rem 0;
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: end;
-  padding: 8rem 0;
+  align-items: center;
 }
 .highlight-content1 {
   display: flex;
@@ -108,18 +115,28 @@ h3 {
     background-color: white;
     color: black;
     align-items: center;
-    padding: 0.5rem 2rem 0.5rem 1rem;
+    padding: 1.2rem 4rem;
+    font-weight: 600;
+    gap: 0;
   }
 }
 .highlight-content2 {
   background-color: #3b3b3b77;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 2rem;
-  width: 30rem;
+  h1 {
+    font-size: 3.8rem;
+    font-family: "Space Mono";
+    font-weight: 700;
+  }
   p {
     font-size: 1.2rem;
     font-family: "Space Mono";
-    font-weight: 100;
+    font-weight: 400;
+  }
+  span {
+    font-size: 5rem;
+    color: white;
   }
 }
 .time-container {
