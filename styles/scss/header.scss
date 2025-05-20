@@ -1,15 +1,24 @@
 .navbar {
   padding: 0px 12rem;
   font-size: 1.5rem;
-  display: flex;
-  align-items: center;
+
   height: 10vh;
-  padding: 0 2rem;
-  justify-content: space-between;
+
+  .navbar-wrapper {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+  }
   a {
     text-decoration: none;
     color: white;
     padding: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
   }
   nav {
     display: flex;

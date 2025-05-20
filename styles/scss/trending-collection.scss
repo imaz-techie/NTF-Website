@@ -1,15 +1,21 @@
 .trending-collection {
-  padding: 0 12rem;
+  padding: 8rem 12rem;
 }
 .image-prop {
   border-radius: 2rem;
+  width: 100%;
 }
 
 .heading {
   margin: 2rem 0;
+  h3 {
+    font-family: "Work Sans";
+    font-weight: 500;
+  }
 }
 
 .card-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -17,6 +23,9 @@
   padding-top: 4rem;
 }
 .collection-card {
+  width: 30%;
+  // max-width: 330px;
+  // min-width: 300px;
   .sc1 {
     background-color: #a259ff;
     display: flex;
@@ -25,11 +34,12 @@
     width: 100%;
     font-size: 2rem;
     font-weight: bold;
+    font-family: "Space Mono";
     border-radius: 2rem;
   }
   .sub-collection {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 7px 0;
   }
   .sub-collection-card {

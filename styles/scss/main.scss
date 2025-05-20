@@ -19,8 +19,12 @@ body {
   background-color: $dark-grey;
   color: white;
   font-family: "Work Sans";
-  max-width: 1440px;
   margin: 0 auto;
+}
+section {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
 }
 //heading/sub texts
 .heading {
@@ -49,6 +53,9 @@ body {
   padding: 1.4rem 2rem;
   border-radius: 1.5rem;
   gap: 1rem;
+  font-family: "Work Sans";
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 .trans-btn {
   display: flex;

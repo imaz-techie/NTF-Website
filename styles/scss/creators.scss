@@ -46,19 +46,25 @@ span {
   color: #969696;
   padding: 7px 10px;
   font-size: 1.2rem;
+  font-weight: 300;
 }
 .card-sub {
   font-size: 1.6rem;
   padding: 1.5rem 0 0;
+  font-family: "Space Mono";
 }
 .total-sales {
+  font-family: "Work Sans";
   font-size: 1.6rem;
 }
 
 .trans-btn {
-  padding: 1rem 5rem 1rem 4rem;
+  padding: 0.7rem 4rem 0.7rem 3rem;
   display: flex;
   font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 2rem;
   justify-content: center;
   align-items: center;
+  font-family: "Work Sans";
 }

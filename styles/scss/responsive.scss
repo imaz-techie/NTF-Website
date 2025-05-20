@@ -12,7 +12,7 @@
     display: none !important;
   }
   .navbar {
-    padding: 4rem;
+    padding: 2rem 0 4rem 0;
   }
 
   // hero section
@@ -52,6 +52,9 @@
   .card-container {
     justify-content: center;
     gap: 3rem;
+  }
+  .collection-card {
+    width: 100%;
   }
   .trending-collection {
     padding: 3rem;
@@ -117,7 +120,7 @@
   }
   .join-container {
     padding: 2rem;
-    .join-content {
+    .join-content1 {
       h2 {
         padding: 0;
       }
@@ -128,6 +131,7 @@
     }
   }
   .input-wrapper {
+    flex-direction: column;
     .input-container {
       font-size: 1.3rem;
       padding: 2rem;
@@ -135,16 +139,18 @@
     }
 
     .purple-btn {
-      padding: 1.5rem 2rem;
-      font-size: 1.6rem;
-      right: 0;
-      left: 12rem;
+      position: static;
+      padding: 1rem;
+      margin-top: 2rem;
     }
   }
   .footer-container {
     padding: 4rem;
     .f-content {
       gap: 3rem;
+    }
+    .purple-btn {
+      padding: 1.7rem 0rem;
     }
   }
 }
