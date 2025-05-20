@@ -18,8 +18,13 @@ body {
   background-color: #2b2b2b;
   color: white;
   font-family: "Work Sans";
-  max-width: 1440px;
   margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
 }
 
 .heading {
@@ -48,6 +53,9 @@ body {
   padding: 1.4rem 2rem;
   border-radius: 1.5rem;
   gap: 1rem;
+  font-family: "Work Sans";
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .trans-btn {
@@ -65,16 +73,23 @@ body {
 .navbar {
   padding: 0px 12rem;
   font-size: 1.5rem;
+  height: 10vh;
+}
+.navbar .navbar-wrapper {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1440px;
   display: flex;
   align-items: center;
-  height: 10vh;
-  padding: 0 2rem;
   justify-content: space-between;
+  padding: 2rem 2rem;
 }
 .navbar a {
   text-decoration: none;
   color: white;
   padding: 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 .navbar nav {
   display: flex;
@@ -110,7 +125,7 @@ body {
 }
 .hero-container .hero-content button {
   margin: 2rem 0;
-  padding: 2rem 4rem;
+  padding: 2rem 7rem;
 }
 .hero-container .hero-content2 {
   display: flex;
@@ -156,18 +171,24 @@ body {
 }
 
 .trending-collection {
-  padding: 0 12rem;
+  padding: 8rem 12rem;
 }
 
 .image-prop {
   border-radius: 2rem;
+  width: 100%;
 }
 
 .heading {
   margin: 2rem 0;
 }
+.heading h3 {
+  font-family: "Work Sans";
+  font-weight: 500;
+}
 
 .card-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -175,6 +196,9 @@ body {
   padding-top: 4rem;
 }
 
+.collection-card {
+  width: 30%;
+}
 .collection-card .sc1 {
   background-color: #a259ff;
   display: flex;
@@ -183,11 +207,12 @@ body {
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Space Mono";
   border-radius: 2rem;
 }
 .collection-card .sub-collection {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 7px 0;
 }
 .collection-card .sub-collection-card {
@@ -263,23 +288,29 @@ span {
   color: #969696;
   padding: 7px 10px;
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .card-sub {
   font-size: 1.6rem;
   padding: 1.5rem 0 0;
+  font-family: "Space Mono";
 }
 
 .total-sales {
+  font-family: "Work Sans";
   font-size: 1.6rem;
 }
 
 .trans-btn {
-  padding: 1rem 5rem 1rem 4rem;
+  padding: 0.7rem 4rem 0.7rem 3rem;
   display: flex;
   font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 2rem;
   justify-content: center;
   align-items: center;
+  font-family: "Work Sans";
 }
 
 .categories-container {
@@ -287,6 +318,8 @@ span {
 }
 .categories-container h4 {
   font-size: 3.8rem;
+  font-weight: 500;
+  padding: 2rem 0;
 }
 .categories-container .categories-heading {
   margin: 2rem 0;
@@ -328,12 +361,13 @@ span {
 }
 
 .discover-container {
-  padding: 2rem;
+  padding: 8rem 2rem;
 }
 .discover-container .heading {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  padding: 3rem 0;
 }
 
 .discover-collection {
@@ -354,15 +388,12 @@ span {
 .discover-card h4 {
   font-size: 2rem;
   padding: 1rem 0;
+  font-weight: 400;
 }
 .discover-card h5 {
   font-size: 1.5rem;
   font-family: "Space Mono";
   font-weight: 200;
-}
-.discover-card p {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
 }
 .discover-card .disc-bottom {
   display: flex;
@@ -375,19 +406,22 @@ span {
   padding: 2rem 0 0 0;
 }
 .discover-card p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: grey;
+  margin-bottom: 1rem;
+  font-family: "Space Mono";
 }
-.discover-card h3 {
+
+h3 {
   font-size: 1.6rem;
   font-weight: 400;
+  font-family: "Space Mono";
 }
 
 .highlights-container {
-  margin: 5rem 0;
   position: relative;
   height: 80vh;
-  width: 100%;
+  width: 100vw;
   background: url("../../assets/svg/magic-mushroom.svg");
   background-position: center;
   background-size: cover;
@@ -448,6 +482,7 @@ span {
 .highlight-content2 p {
   font-size: 1.2rem;
   font-family: "Space Mono";
+  font-weight: 100;
 }
 
 .time-container {
@@ -468,6 +503,7 @@ span {
 .works-container .works-heading h1 {
   font-size: 3.5rem;
   padding: 2rem 0;
+  font-weight: 500;
 }
 .works-container .works-heading p {
   font-size: 2.2rem;
@@ -493,6 +529,8 @@ span {
   font-size: 2.2rem;
   padding: 3rem 0 1rem;
   text-align: center;
+  font-family: "Work Sans";
+  font-weight: 500;
 }
 .works-card p {
   font-size: 1.6rem;
@@ -508,7 +546,7 @@ span {
   padding: 5rem;
   border-radius: 2rem;
   display: flex;
-  gap: 4rem;
+  gap: 10rem;
   flex-wrap: wrap;
 }
 .join-container p {
@@ -520,14 +558,14 @@ span {
   width: 100%;
   flex: 1 0 20rem;
 }
-.join-container .join-content {
+.join-container .join-content1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1 0 20rem;
   gap: 4rem;
 }
-.join-container .join-content h2 {
+.join-container .join-content1 h2 {
   font-size: 3.8rem;
   font-weight: 500;
   padding-right: 11rem;
@@ -540,19 +578,22 @@ span {
   position: relative;
 }
 .input-wrapper .input-container {
-  width: 70%;
+  width: 80%;
   padding: 2rem 0 1.8rem 3rem;
   border-radius: 2rem;
   border: none;
   outline: none;
   font-size: 1.8rem;
 }
+.input-wrapper ::placeholder {
+  color: black;
+}
 .input-wrapper .purple-btn {
   position: absolute;
-  left: 22rem;
+  right: 0rem;
   border-radius: 2rem;
   height: 100%;
-  padding: 0 4rem;
+  padding: 3rem 4rem;
   font-size: 1.8rem;
 }
 
@@ -562,44 +603,71 @@ span {
   font-weight: 300;
   background-color: #3b3b3b;
 }
-.footer-container .f-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.footer-container .f-content1 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.footer-container .f-content2 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.footer-container .f-content2 h3 {
-  font-family: "Space Mono", monospace;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.footer-container .f-content3 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.footer-container .f-content3 h2 {
-  font-family: "Space Mono", monospace;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.footer-container .footer-logos {
+.footer-container .brand {
   display: flex;
   gap: 1rem;
 }
-.footer-container .copyright {
+.footer-container .brand h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Space Mono", monospace;
+}
+
+.f-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.f-content p {
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.f-content1 {
+  flex: 1 0 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.f-content2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 30rem;
+  gap: 2rem;
+}
+.f-content2 h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.f-content3 {
+  display: flex;
+  flex-direction: column;
+  flex: 2 0 20rem;
+  gap: 2rem;
+}
+.f-content3 h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 1rem;
+}
+
+.copyright {
   border-top: 1px solid white;
   margin-top: 2rem;
   padding: 2rem 0;
+  color: #cccccc;
+  font-size: small;
+}
+
+.footer-container .input-wrapper .input-container {
+  width: 100%;
 }
 
 @media screen and (width <= 768px) {
@@ -616,7 +684,7 @@ span {
     display: none !important;
   }
   .navbar {
-    padding: 4rem;
+    padding: 2rem 0 4rem 0;
   }
   .hero-container {
     padding: 3rem;
@@ -652,6 +720,9 @@ span {
   .card-container {
     justify-content: center;
     gap: 3rem;
+  }
+  .collection-card {
+    width: 100%;
   }
   .trending-collection {
     padding: 3rem;
@@ -712,12 +783,15 @@ span {
   .join-container {
     padding: 2rem;
   }
-  .join-container .join-content h2 {
+  .join-container .join-content1 h2 {
     padding: 0;
   }
-  .join-container .join-content p {
+  .join-container .join-content1 p {
     padding: 0;
     font-size: 2rem;
+  }
+  .input-wrapper {
+    flex-direction: column;
   }
   .input-wrapper .input-container {
     font-size: 1.3rem;
@@ -725,16 +799,18 @@ span {
     width: 100%;
   }
   .input-wrapper .purple-btn {
-    padding: 1.5rem 2rem;
-    font-size: 1.6rem;
-    right: 0;
-    left: 12rem;
+    position: static;
+    padding: 1rem;
+    margin-top: 2rem;
   }
   .footer-container {
     padding: 4rem;
   }
   .footer-container .f-content {
     gap: 3rem;
+  }
+  .footer-container .purple-btn {
+    padding: 1.7rem 0rem;
   }
 }
 .login-container {
