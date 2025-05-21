@@ -21,8 +21,6 @@ body {
   font-family: "Work Sans";
   margin: 0 auto;
 }
-section {
-}
 //heading/sub texts
 .heading {
   margin: 4rem 0;
@@ -53,6 +51,7 @@ section {
   font-family: "Work Sans";
   font-size: 1.6rem;
   font-weight: 500;
+  cursor: pointer;
 }
 .trans-btn {
   display: flex;
@@ -64,6 +63,7 @@ section {
   background-color: $dark-grey;
   color: white;
   gap: 1rem;
+  cursor: pointer;
 }
 
 @import "header";
